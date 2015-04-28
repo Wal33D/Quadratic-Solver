@@ -1,0 +1,6 @@
+		Quad Program Spikes
+Waleed Gudah Timothy Lee Kimberly Bradford
+
+
+2.Complex.h was added to the quad file, however errors in converting numbers to complex numbers were made. The time constraint required us to put a prompt in that alerts the user when a complex number is generated. 
+

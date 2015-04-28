@@ -1,0 +1,5 @@
+		Quad Program Spikes
+Waleed Gudah Timothy Lee Kimberly Bradford
+
+3.Floating point numbers are used for input and doubles were used for the root and discriminant functions. This worked to round out errors that were found in testing. We found that the equation is accurate for up to 10e-10 error.
+

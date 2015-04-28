@@ -1,0 +1,5 @@
+		Quad Program Spikes
+Waleed Gudah Timothy Lee Kimberly Bradford
+
+1. Unit testing was done with the quadsolver function to ensure that it received the root and discriminant functions, and sent the result to output. This worked well, however complex number support was not integrated from the beginning.
+
