@@ -5,14 +5,14 @@
 
 ### Description 📝
 
-Quadratic Solver is a straightforward, user-friendly application designed to provide solutions for quadratic equations in real time. Targeting students, educators, and anyone with an interest in mathematics, it aims to simplify the process of finding roots of any quadratic equation, enhancing learning and problem-solving efficiency. Whether you're dealing with homework, preparing for an exam, or just curious about quadratic equations, Quadratic Solver is the go-to tool for accurate and fast solutions.
+Quadratic Solver is an efficient, easy-to-use command-line application designed for solving quadratic equations. It's built for students, educators, and anyone with a need to find roots of quadratic equations quickly. By providing a streamlined process for calculating and displaying solutions, this C program helps demystify quadratic equations for educational and practical purposes.
 
 ### Installation Instructions 🔧
 
 #### Pre-requisites:
 
-- Python 3.x
-- Pip (Python Package Installer)
+- GCC compiler
+- Make (optional for ease of compilation)
 
 #### Installation Steps:
 
@@ -24,65 +24,45 @@ git clone https://github.com/Wal33D/Quadratic-Solver.git
 ```bash
 cd Quadratic-Solver
 ```
-3. Install required Python packages:
+3. Compile the program using the provided Makefile:
 ```bash
-pip install -r requirements.txt
+make
+```
+   Or manually compile:
+```bash
+gcc -o solveQuad main.c discriminant.c input.c output.c quadSolver.c root.c -lm
 ```
 
 ### Usage 🚀
 
-To use the Quadratic Solver, follow these steps:
-
-1. Launch the application:
+After compilation, run the program:
 ```bash
-python solver.py
+./solveQuad
 ```
-2. Enter the coefficients (a, b, and c) of the quadratic equation when prompted.
-3. The solution(s) will be displayed on the screen.
+Follow the prompts to enter coefficients (a, b, and c) for your quadratic equation.
 
 ### Features ✨
 
-- **Real-time Solutions:** Instantly calculates the roots of any quadratic equation.
-- **User-friendly Interface:** Simple prompts and clear instructions make it accessible to everyone.
-- **Educational Tool:** A valuable resource for students and educators alike.
+- **Real-time Solutions:** Calculates roots for any given quadratic equation instantly.
+- **Simplicity:** Command-line interface for straightforward interaction.
+- **Educational Value:** Great for learning and teaching the fundamentals of quadratic equations.
 
 ### Configuration ⚙️
 
-No additional configuration is required after the initial setup.
+The Makefile is configured to compile all necessary files and link the math library using `-lm`. No further configuration is needed.
 
 ### Contribution Guidelines 🤝
 
-We welcome contributions from the community! If you'd like to contribute, please:
+Contributions are welcome! To contribute:
 
 - Fork the repository.
-- Create a new branch for your feature.
-- Commit your changes.
-- Push to the branch.
-- Submit a pull request.
+- Create a feature branch.
+- Commit and push your changes.
+- Make a pull request.
 
 ### License 📜
 
-This project is released under the MIT License. See the LICENSE file for more details.
-
-### Adding Emojis and Styling ✏️
-
-The README includes emojis for visual engagement and uses bold titles, indented blocks, and code blocks for clarity.
-
-### Examples and Code Snippets 📊
-
-Here is a simple example of using the Quadratic Solver:
-
-```python
-# Assuming solver.py is the main script
-python solver.py
-```
-
-Follow the on-screen instructions to input your quadratic equation coefficients.
-
-### Contact Information 📧
-
-For support, questions, or community engagement, please contact Waleed Judah at aquataze@yahoo.com.
-
+This project is open-sourced under the MIT License.
 
 
 QuadSolver
